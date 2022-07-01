@@ -1,11 +1,12 @@
 {
-    "name": "portfolio-vuejs",
+    "name": "levandat-portfolio",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "start": "node server.js"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -54,5 +55,8 @@
         "> 1%",
         "last 2 versions",
         "not dead"
-    ]
+    ],
+    "engines": {
+        "node": "14.x"
+    }
 }
